@@ -47,7 +47,7 @@ spec:
                   - name: gitlabregcred
                 containers:
                 - name: {{.WorkerID}}
-                  image: katib/mxnet-mnist-example
+                  image: shikhabordia/image_classification
                   command:
                   - "python"
                   - "/mxnet/example/image-classification/train_mnist.py"
